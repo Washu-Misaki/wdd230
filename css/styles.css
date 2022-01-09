@@ -30,7 +30,7 @@ header {
 
 .nametag {
     width: 600px;
-    box-shadow: 3px;
+    box-shadow: 3px 3px 3px 3px #888;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

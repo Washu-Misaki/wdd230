@@ -30,7 +30,7 @@ header {
 
 .nametag {
     width: 600px;
-    box-shadow: 3px #F5D225;
+    box-shadow: 3px #888;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;
@@ -48,7 +48,7 @@ header {
 
 footer {
     width: 600px;
-    box-shadow: 3px #F5D225;
+    box-shadow: 3px #888;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

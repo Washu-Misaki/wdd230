@@ -33,6 +33,7 @@ header {
 }
 
 .nametag {
+    width: 600px;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;
@@ -49,6 +50,7 @@ header {
 }
 
 footer {
+    width: 600px;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

@@ -17,7 +17,7 @@ header {
 }
 
 #content {
-    max-width: 600px;
+    max-width: 45rem;
     margin: 0 auto;
 }
 
@@ -33,11 +33,9 @@ header {
 }
 
 .nametag {
-    width: 600px;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;
-    overflow: hidden;
 }
 
 .nametag img {
@@ -50,7 +48,6 @@ header {
 }
 
 footer {
-    width: 600px;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

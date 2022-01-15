@@ -1,4 +1,8 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+
+h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Arial;
 }
 
@@ -13,7 +17,7 @@ header {
 }
 
 #content {
-    max-width: 600px;
+    max-width: 45rem;
     margin: 0 auto;
 }
 
@@ -29,11 +33,10 @@ header {
 }
 
 .nametag {
-    width: 600px;
+    width: 100%;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;
-    overflow: hidden;
 }
 
 .nametag img {
@@ -46,7 +49,10 @@ header {
 }
 
 footer {
+<<<<<<< HEAD
     max-width: 600px;
+=======
+>>>>>>> f836a4b4276f7f91a77151e6319492a0e1dda3c0
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

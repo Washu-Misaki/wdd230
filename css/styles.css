@@ -33,6 +33,7 @@ header {
 }
 
 .nametag {
+    width: 100%;
     border-radius: 10px;
     background-color: #040425;
     color: #3cbd58;

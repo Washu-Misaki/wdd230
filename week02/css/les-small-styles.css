@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Arial;
+    text-align: center;
+    background-color: #7E7ef1;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.8em 0.8em 0 0;
+}
+
+p, a, li {
+    font-family: "Source Sans Pro", Arial;
+}
+
+p .company {
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #040425;
+    color:#3cbd58;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px 0 #1a1a1a;
+}
+
+header p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+em {
+    font-style: italic;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+div p, div a, div picture{
+    padding: 5px;
+}
+
+.columns {
+    border-radius: 1em;
+    border: 1px solid #040425;
+    background-color: #DADAFB;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5em;
+    width: 99%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040425;
+    color: #3cbd58;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px 0 #1a1a1a;
+}

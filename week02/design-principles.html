@@ -5,13 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Design Principles | Responsive Design and Presentation on UI">
-    <link rel="stylesheet" href="../css/small-styles.css">
-    <link rel="stylesheet" href="../css/medium-styles.css">
-    <link rel="stylesheet" href="../css/large-styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/les-small-styles.css">
+    <link rel="stylesheet" href="css/les-medium-styles.css">
+    <link rel="stylesheet" href="css/les-large-styles.css">
     <title>Design Principles | Daniel Jones | WDD230</title>
     <script defer src="../js/design-principles.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Design Principles</h1>
+        <p>Daniel Jones</p>
+    </header>
+    <h2><em>Presentation of three user interface design principles</em></h2>
+    <div id="columns">
+        <div class="columns">
+            <h3>White Space and Clean Design</h3>
+            <p class="company">British Broadcasting Company</p>
+            <a href="https://www.bbc.com">www.bbc.com</a>
+            <picture>
+                <img src="images/bbcss.png" alt="BBC Homepage" width="100">
+            </picture>
+            <p>
+                White Space is a concept used in any design wherein areas in which you are viewing are left 
+                purposefully empty.  Although some people see this as wasted space where more information or 
+                other visual elements, placing white space in select locations allow for the users to enjoy 
+                their experience on a website by not being overloaded all at once.  Proper use of white space 
+                also makes for a cleaner, more professional design.  The space itself need not be white, just 
+                a space in which there is a lack of page content.  Any color, texture, or even background 
+                image can be used as white space!
+            </p>
+            <p>
+                The BBC displays this concept well, with both margins around different elements so that they 
+                are not cramped together, and also with a nice wide space on either side of the page's content 
+                to make the section you are focusing your attention on smaller.  Even with a screen as wide as 
+                some people have for their desktop, limiting the width of your content can improve a person's desire 
+                to remain on your website since they aren't being overstimulated by everything you have to show.
+            </p>
+        </div>
+        <div class="columns">
+            <h3>Hick's Law</h3>
+            <p class="company">FanFiction</p>
+            <a href="https://www.fanfiction.net">www.fanfiction.net</a>
+            <picture>
+                <img src="images/ffnetss.png" alt="FanFiction Homepage" width="100">
+            </picture>
+            <p>The Hick-Hyman Law, commonly known as Hick's Law, is a principle in which when presented with
+                multiple choices, a person requires more time to make their choice from those options. This
+                time increases the more options a person is presented with.  Although there are exceptions to
+                this law, such as when the person knows which decision they will make before being presented 
+                with their options, when a person is presented with more options than they are willing to do 
+                the work to decide upon, they will generally abandon all choice and dismiss them all to avoid 
+                undesired work.  This is also true in Web Design.  In general, it is best to keep things 
+                both simple, while being effective.
+            </p>
+            <p>An example of this is from FanFiction.net's website.  
+                Millions of stories are presented there, but when using the website they are divided by category 
+                and you can further filter the stories to your preference.  Once having done so you are only 
+                presented with the stories that match your criteria, and still have the option to narrow it down 
+                further.
+            </p>
+        </div>
+        <div class="columns">
+            <h3>Rule of Thirds</h3>
+            <p class="company">Fantasy Grounds</p>
+            <a href="https://www.fantasygrounds.com">www.fantasygrounds.com</a>
+            <picture>
+                <img src="images/fgss.png" alt="Fantasy Grounds Homepage" width="100">
+            </picture>
+            <p>
+                The Rule of Thirds is a straightforward idea; you place a simple grid overlay (divided equally 
+                into thirds, both horizontally and vertically) on the space to be used for the design.  When 
+                you have done this, you should have 9 equally sized boxes and 4 primary intersections where the 
+                'lines' of your grid meet.  These four intersections are the 'sweet spots' of your layout, and 
+                each one has a point of importance associated with it, moving from top to bottom, then left to 
+                right.  If you prepare your design with these points in mind and place your elements according to 
+                what is most important to the appropriate intersections your website will have a layout easier 
+                for the users to read and understand the website's purpose.
+            </p>
+            <p>
+                In the Fantasy Grounds website, a primary use of the Rule of Thirds occurs in their display of 
+                game systems they support.  The image used displays the names (in their logo style) of the 
+                different TTRPGs their program supports.  In the top left intersection point, were you to lay a 
+                grid down using this rule, are the most well known and popular titles.  The bottom left is next, 
+                followed by the top right and bottom right.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 .:|:. Daniel F. Jones .:|:. Utah</p>
+        <p id="updated"><script src="js/les-update.js"></script></p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,52 @@
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Arial;
+}
+
+p, a, li {
+    font-family: "Source Sans Pro", Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #040425;
+    color:#3cbd58;
+    box-shadow: 0 2px 5px 0 #1a1a1a;
+}
+
+img {
+    border-radius: 0.5em;
+    align-items: center;
+    height: 90%;
+    margin: 15px;
+    box-shadow: 0 2px 5px 0 #1a1a1a;
+}
+
+#content {
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+
+.index-disclaimer {
+    text-decoration: overline;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040425;
+    color: #3cbd58;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px 0 #1a1a1a;
+}

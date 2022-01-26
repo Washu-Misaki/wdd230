@@ -26,6 +26,7 @@ img {
     border-radius: 0.5em;
     align-items: center;
     height: 90%;
+    max-width: 100px;
     margin: 15px;
     box-shadow: 0 2px 5px 0 #1a1a1a;
 }
